@@ -59,7 +59,7 @@ style: styleInfo,
   layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
 }
 }).addTo(map);
-    
+});
 // Create the map object with center, zoom level and default layer.
 let map = L.map('mapid', {
     center: [39.5, -98.5],
