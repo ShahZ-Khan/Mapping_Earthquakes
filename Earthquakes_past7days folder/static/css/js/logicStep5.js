@@ -68,8 +68,8 @@ let map = L.map('mapid', {
 })
 // Create a base layer that holds both maps.
 let baseMaps = {
-  "Streets": streets
-  //"Satellite": satellitestreets
+  "Streets": streets,
+  "Satellite": satellitestreets
 };
 
 // Create the earthquake layer for our map.
@@ -171,7 +171,3 @@ L.geoJSON(data, {
   });
  
 // We define an object that contains the overlays.
-
-
-
-
